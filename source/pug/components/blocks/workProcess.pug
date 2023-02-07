@@ -1,0 +1,38 @@
+mixin workProcess()
+  -
+    const workProcessList = [
+      {
+        helpText: "ШАГ 1",
+        title: "Заявка",
+        text: "Вы подробно описываете свое задание для наших менеджеров",
+      },
+      {
+        helpText: "ШАГ 2",
+        title: "Оценка",
+        text: "Менеджер оценивает работу и подбирает лучшего эксперта для вас",
+      },
+      {
+        helpText: "ШАГ 3",
+        title: "Предоплата",
+        text: "После внесения предоплаты от 30% экперт приступает к выполнению",
+      },
+      {
+        helpText: "ШАГ 4",
+        title: "Выполнение",
+        text: "После 100% оплаты,  вы скачиваете полностью готовый файл",
+      },
+    ]
+
+  section.work-process#process
+    .work-process__container
+      .work-process__image-wrapper
+        +picture('content', 'process', 'png', 481, 543, "process")
+      .work-process__info-wrapper
+        p.work-process__info-text процесс
+        h2.work-process__title Как мы работаем?
+        ul.work-process__list
+          each item,index in workProcessList
+            li.work-process__item
+              p.work-process__item-info-text= item.helpText
+              h3.work-process__item-title= item.title
+              p.work-process__item-text= item.text

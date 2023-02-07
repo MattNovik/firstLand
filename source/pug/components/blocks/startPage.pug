@@ -1,0 +1,12 @@
+mixin startPage()
+  .start-page
+    .start-page__container
+      .start-page__text-wrapper
+        p.start-page__help-text Помогаем учиться
+        h1.start-page__title Заказать учебную работу
+        p.start-page__info-text
+          | Сервис помощи студентам по всем типам студенческих работ. Более 300
+          | 000 экспертов помогут разобраться в сложной теме.
+        +picture('content', 'startImage', 'png', 542, 713, "stud-first").start-page__main-image
+      +customForm({classname: 'first-form',id: 'orders'})
+

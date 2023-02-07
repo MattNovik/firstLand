@@ -1,0 +1,7 @@
+mixin header(/*{ menuRef, handleOpen, handleClose }*/)
+    header.header
+      .header__container
+        +icon('icon-logo', 100, 100).header__logo
+        +menu()
+        button.header__burger(type="button" /* onClick={() => handleOpen()} */ aria-label="open-menu")
+          +icon('icon-burger',32,18)

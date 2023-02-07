@@ -1,0 +1,27 @@
+mixin footer()
+    footer.footer
+      .footer__container
+        .footer__socials
+          ul.footer__social-list
+            li.menu__social-item.tg
+              a(href="https://t.me/StudSHelp_Bot" aria-label="tg link" target="_blank" rel="noreferrer")
+                +icon('icon-tg',30,30)
+            li.menu__social-item.ok
+              a(href="https://vk.com/referat" aria-label="ok link" target="_blank" rel="noreferrer")
+                +icon('icon-ok',30,30)
+            li.menu__social-item.vk
+              a(href="https://vk.com/referat" aria-label="vk link" target="_blank" rel="noreferrer")
+                +icon('icon-vk',30,30)
+        span.footer__copyright © 2004 — 2023 Студсервис Все права защищены
+        .footer__payment-wrapper
+          span.footer__payment-text Мы принимаем:
+          ul.footer__payment-list
+            li.footer__payment-item
+              +icon('icon-visa',68,21)
+            li.footer__payment-item
+              +icon('icon-ms',69,42)
+            li.footer__payment-item
+              +icon('icon-ms',69,42)
+            li.footer__payment-item
+              +icon('icon-mir',74,21)
+

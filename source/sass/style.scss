@@ -1,9 +1,8 @@
 // Vendor
 // ---------------------------------
-
+@import "vendor/swiper";
 @import "vendor/normalize";
 // Swiper 7.4.1
-// @import "vendor/swiper";
 
 // Global
 // ---------------------------------
@@ -18,15 +17,24 @@
 
 // Blocks
 // ---------------------------------
-
+@import "blocks/benefitsList";
 @import "blocks/header";
 @import "blocks/main-nav";
 @import "blocks/footer";
 @import "blocks/modal";
 @import "blocks/btn";
-@import "blocks/custom-input";
+//@import "blocks/custom-input";
 @import "blocks/custom-toggle";
 @import "blocks/custom-select";
+@import "blocks/contacts";
+@import "blocks/customForm";
+@import "blocks/customSwiper";
+@import "blocks/main";
+@import "blocks/makeOrder";
+@import "blocks/menu";
+@import "blocks/startPage";
+@import "blocks/workProcess";
+@import "blocks/wrapper";
 
 // ---------------------------------
 

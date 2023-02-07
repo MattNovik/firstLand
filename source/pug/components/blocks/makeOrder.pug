@@ -1,0 +1,10 @@
+mixin makeOrder()
+    section.make-order
+      .make-order__container
+        +picture('content','illustrationFirst','png',154,272,'illFirst').make-order__image.make-order__image--left
+        .make-order__form-wrapper
+          p.make-order__help-text РАЗМЕСТИТЬ ЗАКАЗ
+          h2.make-order__title Оставь заявку и мы выберем лучшего автора
+          +customForm('second-form')
+        +picture('content','illustrationSecond','png',166,286,'illFirst').make-order__image.make-order__image--right
+
