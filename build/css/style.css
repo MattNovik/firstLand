@@ -1256,7 +1256,7 @@ template {
   font-weight: 700;
   font-family: "Montserrat";
   font-display: swap;
-  src: url("../fonts/montserrat-bold.woff2") format("woff2"), url("../assets/fonts/montserrat-bold.woff") format("woff");
+  src: url("../fonts/montserrat-bold.woff2") format("woff2"), url("../fonts/fonts/montserrat-bold.woff") format("woff");
 }
 
 @font-face {
@@ -2670,7 +2670,7 @@ input:matches([type=email],
   transform: translate(0, -50%);
   width: 10px;
   height: 8px;
-  background-image: url("../../img/content/check.png");
+  background-image: url("../img/content/check.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;

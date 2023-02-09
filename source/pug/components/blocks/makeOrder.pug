@@ -5,6 +5,6 @@ mixin makeOrder()
         .make-order__form-wrapper
           p.make-order__help-text РАЗМЕСТИТЬ ЗАКАЗ
           h2.make-order__title Оставь заявку и мы выберем лучшего автора
-          +customForm('second-form')
+          +customForm({classname: 'second-form',id: 'second'})
         +picture('content','illustrationSecond','png',166,286,'illFirst').make-order__image.make-order__image--right
 
