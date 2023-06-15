@@ -2912,9 +2912,9 @@ input:matches([type=email],
   left: 50%;
   /* right: 117px; */
   top: 50%;
-  -webkit-transform: translate(600px, -50%);
-  -ms-transform: translate(600px, -50%);
-  transform: translate(600px, -50%);
+  -webkit-transform: translate(574px, -50%);
+  -ms-transform: translate(574px, -50%);
+  transform: translate(574px, -50%);
 }
 
 .custom-swiper .swiper-button-next::after {
@@ -2926,9 +2926,9 @@ input:matches([type=email],
   left: 50%;
   /* left: 117px; */
   top: 50%;
-  -webkit-transform: rotate(180deg) translate(624px, 50%);
-  -ms-transform: rotate(180deg) translate(624px, 50%);
-  transform: rotate(180deg) translate(624px, 50%);
+  -webkit-transform: rotate(180deg) translate(620px, 50%);
+  -ms-transform: rotate(180deg) translate(620px, 50%);
+  transform: rotate(180deg) translate(620px, 50%);
 }
 
 .custom-swiper .swiper-button-prev:after {
@@ -3382,7 +3382,6 @@ input:matches([type=email],
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.5rem;
-  text-transform: uppercase;
   color: #0a71cc;
   margin: 0 0 8px;
 }
@@ -3606,9 +3605,9 @@ input:matches([type=email],
   }
 
   .custom-swiper .swiper-button-prev {
-    -webkit-transform: rotate(180deg) translate(584px, 50%);
-    -ms-transform: rotate(180deg) translate(584px, 50%);
-    transform: rotate(180deg) translate(584px, 50%);
+    -webkit-transform: rotate(180deg) translate(580px, 50%);
+    -ms-transform: rotate(180deg) translate(580px, 50%);
+    transform: rotate(180deg) translate(580px, 50%);
   }
 
   .make-order__container {

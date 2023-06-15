@@ -7,7 +7,7 @@ mixin menu()
       },
       {
         name: "Отзывы",
-        to: "#reviews",
+        to: "#reviewsTitle",
       },
       {
         name: "Процесс",
@@ -27,8 +27,8 @@ mixin menu()
         li.menu__item
           a.menu__link(href=item.to /* onClick={() => handleClose()} */)= item.name
     .menu__enters
-      a.menu__enter(href="https://studservis-lk.ru/" type="button" target="_blank" rel="noreferrer") Вход
-      a.menu__reg-button(href="#orders" type="button") Регистрация
+      a.menu__enter(href="https://studservis-lk.ru/" target="_blank" rel="noreferrer") Вход
+      a.menu__reg-button(href="#orders") Регистрация
         +icon('icon-arrow',15,15)
     .menu__wrapper-tel-email
       p.menu__title Контакты:

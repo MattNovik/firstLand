@@ -239,7 +239,7 @@
     left: 50%;
     /* right: 117px; */
     top: 50%;
-    transform: translate(600px, -50%);
+    transform: translate(574px, -50%);
 
     &::after {
       content: none;
@@ -265,14 +265,14 @@
     left: 50%;
     /* left: 117px; */
     top: 50%;
-    transform: rotate(180deg) translate(624px, 50%);
+    transform: rotate(180deg) translate(620px, 50%);
 
     &:after {
       content: none;
     }
 
     @include vp--1439 {
-      transform: rotate(180deg) translate(584px, 50%);
+      transform: rotate(180deg) translate(580px, 50%);
     }
 
     @include vp--1199 {
