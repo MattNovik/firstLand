@@ -6,12 +6,11 @@ const baseSuccessCallback = (event) => {
   axios
     .post("https://back.studuniverse.ru/api/public/user", formData)
     .then((response) => {
-      console.log(response);
       if (
         typeof response.data.data.authlink !== "undefined" &&
         response.data.data.authlink > 0
       ) {
-        return (window.location.href = response.link);
+        return (window.location.href = response.data.data.authlink);
       } else {
         return (window.location.href = "https://studservis-lk.ru/");
       }
