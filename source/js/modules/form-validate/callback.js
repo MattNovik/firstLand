@@ -7,10 +7,11 @@ const baseSuccessCallback = (event) => {
     .post("https://back.studuniverse.ru/api/public/user", formData)
     .then((response) => {
       if (
-        typeof response.data.data.authlink !== "undefined" &&
-        response.data.data.authlink > 0
+        typeof response?.data?.data?.authlink !== "undefined" &&
+        response?.data?.data?.authlink?.length > 0
       ) {
-        return (window.location.href = response.data.data.authlink);
+        return (window.location.href =
+          response?.data?.data?.authlink + "firstOrder/");
       } else {
         return (window.location.href = "https://studservis-lk.ru/");
       }
